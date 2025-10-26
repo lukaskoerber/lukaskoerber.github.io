@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lukas Körber – Research</title>
+  <meta name="description" content="Finance researcher. Research interests, working paper, publications, and contact." />
+  <meta property="og:title" content="Lukas Körber – Research" />
+  <meta property="og:description" content="Finance researcher. Research interests, working paper, publications, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/portrait.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root{ --bg:#ffffff; --fg:#111; --muted:#555; --link:#0b66c3; --card:#f6f8fa; --border:#e5e7eb; }
+    @media (prefers-color-scheme: dark){ :root{ --bg:#0b0d10; --fg:#f3f4f6; --muted:#a1a1aa; --link:#7ab8ff; --card:#111418; --border:#2a2f36; } }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:0 auto;padding:32px 20px}
+    header{display:flex;gap:24px;align-items:center;margin-bottom:24px}
+    header img{width:110px;height:110px;object-fit:cover;border-radius:50%;border:1px solid var(--border)}
+    nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:12px;border:1px solid var(--border);background:var(--card)}
+    h1{font-size:32px;line-height:1.2;margin:0}
+    h2{font-size:22px;margin:32px 0 12px}
+    .muted{color:var(--muted)}
+    .pub{margin:0 0 14px;padding:14px;border:1px solid var(--border);border-radius:14px;background:linear-gradient(180deg, var(--card), transparent)}
+    .pub h3{margin:0 0 6px;font-size:18px}
+    .pub .meta{font-size:14px}
+    .btn{display:inline-block;padding:8px 12px;border:1px solid var(--border);border-radius:12px;background:var(--card)}
+    footer{margin:48px 0 12px;color:var(--muted);font-size:14px}
+    .grid-two{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    @media (max-width:800px){.grid-two{grid-template-columns:1fr}}
+    .tag{font-size:12px;padding:2px 8px;border:1px solid var(--border);border-radius:999px;margin-right:6px}
+    code{background:var(--card);padding:2px 6px;border-radius:8px;border:1px solid var(--border)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lukas Körber",
+    "affiliation": {"@type":"Organization","name":"Goethe University Frankfurt"},
+    "jobTitle": "PhD Student in Finance, Goethe University Frankfurt",
+    "address": {"@type":"PostalAddress","addressLocality":"Frankfurt am Main","addressCountry":"DE"},
+    "email": "mailto:koerber.lukas@icloud.com",
+    "url": "https://yourdomain.com",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=YOURID",
+      "https://ssrn.com/author=XXXXXX",
+      "https://orcid.org/0000-0000-0000-0000",
+      "https://github.com/lukaskoerber?tab=repositories",
+      "https://www.linkedin.com/in/lukas-k%C3%B6rber-b869081aa/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="portrait.jpg" alt="Portrait of Lukas Körber" />
+      <div>
+        <h1>Lukas Körber</h1>
+        <div class="muted">PhD Student in Finance, Goethe University Frankfurt</div>
+        <div class="muted">Research: Financial Economics, Asset Pricing</div>
+        <div style="margin-top:8px">
+          <a class="btn" href="CV_Lukas_Koerber.pdf">Download CV</a>
+          <a class="btn" href="mailto:koerber.lukas@icloud.com">koerber.lukas@icloud.com</a>
+        </div>
+      </div>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="research">
+      <div>
+        <h2>Research Summary</h2>
+        <p>
+          I work on empirical asset pricing and factor models. My current work studies how nonlinear transformations of firm characteristics
+          can improve the span of stochastic discount factors and explain prominent cross‑sectional return patterns.
+        </p>
+        <div>
+          <span class="tag">Asset Pricing</span>
+          <span class="tag">Empirical Finance</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+        <h2 style="margin-top:24px">Working Paper</h2>
+        <article class="pub">
+          <h3>Pricing Complexity in the Cross Section of Stock Returns</h3>
+          <div class="meta">with Christian Schlag and Fabio Girardi • <em>Working paper</em></div>
+          <p>
+            We evaluate the pricing performance of a robust SDF spanned by a broad cross‑section of factor returns. Methodologically, we combine
+            kernel principal component analysis—which extracts factors as nonlinear functions of a high‑dimensional set of firm characteristics—with novel regularization techniques. Allowing for nonlinearities enhances the model’s performance in explaining a wide range of cross‑sectional stock‑return anomalies and reduces pricing errors. We further decompose the mean–variance efficient portfolio into linear and nonlinear components and study their relative contributions across different states of the economy. Out‑of‑sample, incorporating nonlinearities increases the Sharpe ratio of the mean–variance efficient portfolio by roughly 25% to 2.15.
+          </p>
+          <p>
+            <a href="#">PDF</a> · <a href="#">Slides</a> · <a href="#">Appendix</a> · <a href="https://ssrn.com/abstract=XXXXXXX">SSRN</a> · <a href="#" onclick="toggle('bib1');return false;">BibTeX</a>
+          </p>
+          <pre id="bib1" style="display:none"><code>@article{KoerberPricingComplexity,
+  title={Pricing Complexity in the Cross Section of Stock Returns},
+  author={K{"o}rber, Lukas and Schlag, Christian and Girardi, Fabio},
+  year={2025},
+  note={Working paper},
+  url={https://yourdomain.com/pricing_complexity.pdf}
+}</code></pre>
+        </article>
+      </div>
+      
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <article class="pub">
+        <h3>Passive investing, active decisions: The DAX index inclusion effect</h3>
+        <div class="meta">Demir Bektic, Asad Khan, and Lukas Körber • <em>Review of Financial Economics</em> 43 (2025): 286–296</div>
+        <p>
+          Newly included DAX 40 stocks (2010–2023) outperformed the index by ~33.2% in the 12 months prior to inclusion but underperformed by ~36.1% over the subsequent 24 months. A market‑neutral strategy that shorts newly included stocks at inclusion and pairs with a long DAX ETF held for 18 months delivers significant alpha versus a Fama–French six‑factor model, even after transaction costs—revealing a hidden performance drag for passive DAX investors.
+        </p>
+        <p>
+          <a href="#">Journal</a> · <a href="#">Ungated PDF</a> · <a href="https://ssrn.com/abstract=YYYYYYY">SSRN</a> · <a href="#" onclick="toggle('bib2');return false;">BibTeX</a>
+        </p>
+        <pre id="bib2" style="display:none"><code>@article{KoerberDAX2025,
+  title={Passive investing, active decisions: The DAX index inclusion effect},
+  author={Bektic, Demir and Khan, Asad and K{"o}rber, Lukas},
+  journal={Review of Financial Economics},
+  volume={43},
+  pages={286--296},
+  year={2025},
+  url={https://yourdomain.com/dax_inclusion.pdf}
+}</code></pre>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Frankfurt am Main, Germany</p>
+      <p>Email: <a href="mailto:koerber.lukas@icloud.com">koerber.lukas@icloud.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/lukas-k%C3%B6rber-b869081aa/">Lukas Körber</a> · GitHub: <a href="https://github.com/lukaskoerber?tab=repositories">lukaskoerber</a></p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Lukas Körber • Last updated Oct 2025
+    </footer>
+  </div>
+  <script>
+    function toggle(id){
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === 'none' || !el.style.display) ? 'block' : 'none';
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
